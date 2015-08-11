@@ -1,0 +1,32 @@
+h1 {
+    color: #008B8B;
+    text-align: center;
+}
+
+#container {
+  background-color: #B0C4DE;
+  height:  480px;
+  width:  480px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.field {
+  background-color: #00C78C;
+  height: 28px;     /* 58 because of 2 x 1px border; TODO: spread when remove borders; */
+  width: 28px;
+  border: 1px solid #FFB6C1;
+  float: left;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+div {
+    position: relative;    
+    text-align: center;
+}
